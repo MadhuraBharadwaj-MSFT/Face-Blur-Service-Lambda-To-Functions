@@ -1,0 +1,15 @@
+node_modules
+.env
+.venv
+.vscode
+__pycache__
+.python_packages
+.DS_Store
+local.settings.json
+.idea
+bin
+obj
+dist
+npm-debug.log
+.jest-cache
+.vs

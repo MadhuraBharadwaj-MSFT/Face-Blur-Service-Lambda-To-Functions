@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "messageId": "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
+      "insertionTime": "2023-11-01T12:00:00Z",
+      "body": {
+        "url": "https://<storage-account-name>.blob.core.windows.net/face-blur-source/test-image.jpg",
+        "eTag": "0x8DA1FDC71178C88",
+        "contentType": "image/jpeg",
+        "contentLength": 98196,
+        "blobType": "BlockBlob",
+        "contentMD5": "xxxxxx",
+        "containerName": "face-blur-source",
+        "blobUrl": "https://<storage-account-name>.blob.core.windows.net/face-blur-source/test-image.jpg",
+        "data": {
+          "api": "PutBlob",
+          "clientRequestId": "xxxxxxx",
+          "requestId": "xxxxxxx",
+          "eTag": "0x8DA1FDC71178C88",
+          "contentType": "image/jpeg",
+          "contentLength": 98196,
+          "blobType": "BlockBlob",
+          "containerName": "face-blur-source",
+          "blobUrl": "https://<storage-account-name>.blob.core.windows.net/face-blur-source/test-image.jpg"
+        },
+        "eventType": "Microsoft.Storage.BlobCreated",
+        "eventTime": "2023-11-01T12:00:00.0000000Z",
+        "id": "xxxxxxx"
+      }
+    }
+  ]
+}

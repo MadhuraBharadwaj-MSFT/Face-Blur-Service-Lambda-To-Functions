@@ -1,0 +1,11 @@
+name: azure-face-blur-function
+metadata:
+  template: azure-functions-js@0.0.1-beta
+infra:
+  provider: bicep
+  path: infra
+services:
+  api:
+    project: ./src
+    language: js
+    host: function
